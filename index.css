@@ -1,0 +1,29 @@
+.pokemon {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  position: relative;
+}
+
+.pokemon img {
+  display: block;
+}
+
+.pokemonLabel {
+  display: none;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.pokemon:hover .pokemonLabel {
+  display: block;
+}
