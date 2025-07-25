@@ -6,6 +6,7 @@ const backURL =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/";
 
 const pokemonNames = [
+  "",
   "Bulbasaur",
   "Ivysaur",
   "Venusaur",
